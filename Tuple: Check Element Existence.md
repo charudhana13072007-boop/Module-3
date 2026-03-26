@@ -10,8 +10,19 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+~~~
+x = ('a', 'b', 'c', 'n', 1, 2, 8, 9)
 
+
+print("'n' exists in tuple:", 'n' in x)
+
+print("8 exists in tuple:", 8 in x)
+
+~~~
 ## Output
+'n' exists in tuple: True
+
+8 exists in tuple: True
 
 ## Result
+The program successfully checks for the existence of both 'n' (a string) and 8 (an integer) in the tuple using the in operator. Both elements are found in the tuple, so the result is True for both checks.
